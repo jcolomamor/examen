@@ -39,7 +39,7 @@ public class ExamenServlet extends HttpServlet {
 			String username = "examenuser";
 			String password = "examenpass";
 			
-			String url= "jdbc:mysql://34.202.254.120:3306/examendaw2";
+			String url= "jdbc:mysql://44.222.253.206:3306/examendaw2";
 			conn = DriverManager.getConnection(url, username, password);
 			stmt = conn.createStatement();
 			
