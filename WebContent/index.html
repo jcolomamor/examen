@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title> Proyectos DAW2 </title>
+</head>
+<body>
+<p>Selecciona el nombre de un profesor y la aplicación te proporcionará información sobre los proyectos que va a liderar.</p>
+<h1>Elige una opción:</h1>
+
+<form id="myForm" method="post" action ="ExamenServlet">
+    <label for="options">Opciones:</label>
+    <select id="options" name="nombreProfesor">
+        <option value="MERITXELL">MERITXELL</option>
+        <option value="GONZALO">GONZALO</option>
+        <option value="MARTA">MARTA</option>
+        <option value="MODESTO">MODESTO</option>
+        <option value="ALBERTO">ALBERTO</option>
+    </select>
+
+    <br><br>
+    <input type="submit" value="Enviar">
+</form>
